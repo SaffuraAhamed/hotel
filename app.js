@@ -7,7 +7,7 @@ const staticPath = path.join(__dirname,"/public")
 
 app.use(express.static(staticPath))
 
-app.get('/', (req, res) => {
+app.get('/signup', (req, res) => {
   res.send('Hello World!')
 })
 
